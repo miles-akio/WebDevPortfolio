@@ -6,8 +6,8 @@ body {
     padding: 0;
     color: #fff; /* Default font color */
     background-color: #1a1a1a;
-    padding-left: 400px; /* Added padding */
-    padding-right: 400px; /* Added padding */
+    padding-left: 200px; /* Added padding */
+    padding-right: 00px; /* Added padding */
 }
 
 
@@ -303,7 +303,7 @@ body.contact {
 
 .project-info {
     margin-top: 20px; /* Adjust as needed */
-    padding-right: 100px; /* Padding added */
+    /*padding-right: 100px; /* Padding added */
 }
 
 .view-work-btn {
@@ -316,5 +316,5 @@ body.contact {
     border: none;
     border-radius: 4px;
     text-decoration: none;
-    padding-right: 80px; /* Padding added */
+    /*padding-right: 80px; /* Padding added */
 }
