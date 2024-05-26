@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #000; /* Updated font color */
+    color: #fff; /* Default font color */
     background-color: #1a1a1a;
 }
 
@@ -18,7 +18,7 @@ body {
     background: #333;
     color: #fff;
     padding: 1rem 0;
-    font-family: "DIN Neuzeit Grotesk", sans-serif;
+    font-family: "Lulo Clean", sans-serif; /* Updated font */
 }
 
 .header .navbar {
@@ -63,14 +63,14 @@ body {
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    font-family: "DIN Neuzeit Grotesk", sans-serif;
+    font-family: "Lulo Clean", sans-serif; /* Updated font */
 }
 
 .hero-content p {
     font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 2rem;
-    font-family: "Avenir Light", sans-serif;
+    font-family: "Lulo Clean", sans-serif; /* Updated font */
 }
 
 .hero-links {
@@ -245,6 +245,7 @@ body {
     position: relative;
     bottom: 0;
     width: 100%;
+    font-family: "Lulo Clean", sans-serif; /* Updated font */
 }
 
 .footer .social-links {
@@ -273,4 +274,9 @@ body {
         max-width: 100%;
         text-align: left;
     }
+}
+
+/* Specific styles for contact.html */
+body.contact {
+    color: #000; /* Updated font color */
 }
