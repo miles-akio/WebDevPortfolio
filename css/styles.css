@@ -116,7 +116,7 @@ body {
 }
 
 .project-card img {
-    width: 200%; /* Stretch the image horizontally */
+    width: 150%; /* Stretch the image horizontally */
     max-width: 600px; /* Increased maximum width for the stretched images */
     border: 2px solid #fff;
     border-radius: 8px;
@@ -315,3 +315,4 @@ body.contact {
     text-decoration: none;
     padding-right: 80px; /* Padding added */
 }
+
