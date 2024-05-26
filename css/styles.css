@@ -1,10 +1,10 @@
 /* Base styles */
 body {
-    font-family: "Arial", sans-serif;
+    font-family: "Lulo Clean", sans-serif; /* Updated font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #000; /* Updated font color */
     background-color: #1a1a1a;
 }
 
@@ -114,7 +114,8 @@ body {
 }
 
 .project-card img {
-    max-width: 200px;
+    width: 100%; /* Stretch the image horizontally */
+    max-width: 250px; /* Increased maximum width for the stretched images */
     border: 1px solid #fff;
     border-radius: 8px;
     margin-right: 1rem;
@@ -269,7 +270,4 @@ body {
 
     .hero-content,
     .projects {
-        max-width: 100%;
-        text-align: left;
-    }
-}
+        max-width: 
