@@ -6,7 +6,10 @@ body {
     padding: 0;
     color: #fff; /* Default font color */
     background-color: #1a1a1a;
+    padding-left: 400px; /* Added padding */
+    padding-right: 400px; /* Added padding */
 }
+
 
 .container {
     max-width: 1200px;
