@@ -1,7 +1,7 @@
 /* Font import */
 @font-face {
-    font-family: 'Lulo Clean';
-    src: url('path/to/LuloClean-Regular.ttf') format('truetype');
+    font-family: 'Lato';
+    src: url('path/to/Lato-Regular.ttf') format('truetype');
     /* Add additional src lines for other font file formats if necessary */
     font-weight: normal;
     font-style: normal;
@@ -9,7 +9,7 @@
 
 /* Base styles */
 body {
-    font-family: "Lulo Clean", sans-serif; /* Updated font */
+    font-family: "Lato", sans-serif; /* Updated font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ body {
     background: #333;
     color: #fff;
     padding: 1rem 0;
-    font-family: "Lulo Clean", sans-serif; /* Updated font */
+    font-family: "Lato", sans-serif; /* Updated font */
 }
 
 .header .navbar {
@@ -72,14 +72,14 @@ body {
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    font-family: "Lulo Clean", sans-serif; /* Updated font */
+    font-family: "Lato", sans-serif; /* Updated font */
 }
 
 .hero-content p {
     font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 2rem;
-    font-family: "Lulo Clean", sans-serif; /* Updated font */
+    font-family: "Lato", sans-serif; /* Updated font */
 }
 
 .hero-links {
@@ -254,7 +254,7 @@ body {
     position: relative;
     bottom: 0;
     width: 100%;
-    font-family: "Lulo Clean", sans-serif; /* Updated font */
+    font-family: "Lato", sans-serif; /* Updated font */
 }
 
 .footer .social-links {
