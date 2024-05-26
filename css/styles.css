@@ -280,3 +280,24 @@ body {
 body.contact {
     color: #000; /* Updated font color */
 }
+
+/* Additional styles for index.html */
+.profile-picture {
+    width: 250px;
+    border: 2px solid #fff; /* 2px border around the profile picture */
+    border-radius: 8px;
+    float: right; /* Align profile picture to the right */
+}
+
+.view-work-btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto; /* Center the button */
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 1rem;
+}
