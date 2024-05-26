@@ -115,7 +115,7 @@ body {
 
 .project-card img {
     width: 200%; /* Stretch the image horizontally */
-    max-width: 900px; /* Increased maximum width for the stretched images */
+    max-width: 600px; /* Increased maximum width for the stretched images */
     border: 2px solid #fff;
     border-radius: 8px;
     margin-right: 1rem;
@@ -287,6 +287,16 @@ body.contact {
     border: 2px solid #fff; /* 2px border around the profile picture */
     border-radius: 8px;
     float: right; /* Align profile picture to the right */
+}
+
+.profile-picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-info {
+    margin-top: 20px; /* Adjust as needed */
 }
 
 .view-work-btn {
