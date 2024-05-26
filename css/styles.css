@@ -124,7 +124,7 @@ body {
 
 .project-card img {
     width: 100%; /* Stretch the image horizontally */
-    max-width: 350px; /* Increased maximum width for the stretched images */
+    max-width: 500px; /* Increased maximum width for the stretched images */
     border: 1px solid #fff;
     border-radius: 8px;
     margin-right: 1rem;
