@@ -6,15 +6,12 @@ body {
     padding: 0;
     color: #fff; /* Default font color */
     background-color: #1a1a1a;
-    padding-left: 200px; /* Added padding */
-    padding-right: 00px; /* Added padding */
 }
-
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0;
 }
 
 .header {
@@ -74,8 +71,6 @@ body {
     line-height: 1.5;
     margin-bottom: 2rem;
     font-family: "Times New Roman", sans-serif; /* Updated font */
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .hero-links {
@@ -119,7 +114,7 @@ body {
 }
 
 .project-card img {
-    width: 150%; /* Stretch the image horizontally */
+    width: 200%; /* Stretch the image horizontally */
     max-width: 600px; /* Increased maximum width for the stretched images */
     border: 2px solid #fff;
     border-radius: 8px;
@@ -128,7 +123,6 @@ body {
 
 .project-info {
     flex: 1;
-    padding-right: 20px; /* Padding added */
 }
 
 .project-info h2 {
@@ -303,7 +297,7 @@ body.contact {
 
 .project-info {
     margin-top: 20px; /* Adjust as needed */
-    /*padding-right: 100px; /* Padding added */
+    padding-right: 100px; /* Padding added */
 }
 
 .view-work-btn {
@@ -316,5 +310,5 @@ body.contact {
     border: none;
     border-radius: 4px;
     text-decoration: none;
-    /*padding-right: 80px; /* Padding added */
+    padding-right: 80px; /* Padding added */
 }
