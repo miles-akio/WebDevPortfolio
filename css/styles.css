@@ -123,9 +123,9 @@ body {
 }
 
 .project-card img {
-    width: 150%; /* Stretch the image horizontally */
+    width: 200%; /* Stretch the image horizontally */
     max-width: 500px; /* Increased maximum width for the stretched images */
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 8px;
     margin-right: 1rem;
 }
