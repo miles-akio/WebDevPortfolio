@@ -18,7 +18,7 @@ body {
     background: #333;
     color: #fff;
     padding: 1rem 0;
-    font-family: "DIN Neuzeit Grotesk", sans-serif; /* Updated font */
+    font-family: "DIN Neuzeit Grotesk", sans-serif;
 }
 
 .header .navbar {
@@ -63,14 +63,14 @@ body {
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    font-family: "DIN Neuzeit Grotesk", sans-serif; /* Updated font */
+    font-family: "DIN Neuzeit Grotesk", sans-serif;
 }
 
 .hero-content p {
     font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 2rem;
-    font-family: "Avenir Light", sans-serif; /* Updated font */
+    font-family: "Avenir Light", sans-serif;
 }
 
 .hero-links {
@@ -106,6 +106,55 @@ body {
 .projects ul li a {
     color: #ffcc00;
     text-decoration: none;
+}
+
+.project-card {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.project-card img {
+    max-width: 200px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-info p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-info ul {
+    padding-left: 1rem;
+}
+
+.project-info ul li {
+    margin-bottom: 0.5rem;
+}
+
+.project-info .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.project-info .btn:hover {
+    background-color: #555;
 }
 
 /* Contact Section Styles */
