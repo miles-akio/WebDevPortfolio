@@ -1,3 +1,12 @@
+/* Font import */
+@font-face {
+    font-family: 'Lulo Clean';
+    src: url('path/to/LuloClean-Regular.ttf') format('truetype');
+    /* Add additional src lines for other font file formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Base styles */
 body {
     font-family: "Lulo Clean", sans-serif; /* Updated font */
@@ -297,7 +306,6 @@ body.contact {
     background-color: #333;
     color: #fff;
     border: none;
-    border-radius: 15px;
+    border-radius: 4px;
     text-decoration: none;
-    margin-top: 1rem;
 }
